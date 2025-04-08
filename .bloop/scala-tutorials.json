@@ -1,0 +1,181 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-tutorials",
+        "directory": "E:\\Scala\\Scala-tutorials",
+        "workspaceDir": "E:\\Scala\\Scala-tutorials",
+        "sources": [
+            "E:\\Scala\\Scala-tutorials\\src\\main\\scala",
+            "E:\\Scala\\Scala-tutorials\\src\\main\\scala-2.13",
+            "E:\\Scala\\Scala-tutorials\\src\\main\\scala-2",
+            "E:\\Scala\\Scala-tutorials\\src\\main\\java",
+            "E:\\Scala\\Scala-tutorials\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13.jar"
+        ],
+        "out": "E:\\Scala\\Scala-tutorials\\.bloop\\scala-tutorials",
+        "classesDir": "E:\\Scala\\Scala-tutorials\\.bloop\\scala-tutorials\\scala-2.13\\classes",
+        "resources": [
+            "E:\\Scala\\Scala-tutorials\\src\\main\\resources",
+            "E:\\Scala\\Scala-tutorials\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.13",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13.jar",
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.13\\scala-compiler-2.13.13.jar",
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.13\\scala-reflect-2.13.13.jar",
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.24.1\\jline-3.24.1.jar",
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.13.0\\jna-5.13.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            },
+            "bridgeJars": [
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala2-sbt-bridge\\2.13.13\\scala2-sbt-bridge-2.13.13.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-17",
+                "options": [
+                    "-Duser.dir=E:\\Scala\\Scala-tutorials"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "C:\\Program Files\\Java\\jdk-17",
+                "options": [
+                    "-Duser.dir=E:\\Scala\\Scala-tutorials"
+                ]
+            },
+            "classpath": [
+                "E:\\Scala\\Scala-tutorials\\.bloop\\scala-tutorials\\scala-2.13\\classes",
+                "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.13",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Tharindu Chanaka\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.13\\scala-library-2.13.13-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

@@ -1,0 +1,894 @@
+2025.04.08 12:27:52 INFO  Started: Metals version 1.5.2 in folders 'E:\Scala\Scala-tutorials' for client Visual Studio Code 1.99.0.
+2025.04.08 12:27:53 INFO  no build target found for E:\Scala\Scala-tutorials\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 12:28:13 INFO  no build target found for E:\Scala\Scala-tutorials\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 12:28:13 INFO  running 'C:\Program Files\Java\jdk-17\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\THARIN~1\AppData\Local\Temp\metals5433966647467109510\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.04.08 12:28:13 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.7  (this may take some time)...
+2025.04.08 12:28:47 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2025.04.08 12:28:50 INFO  [info] welcome to sbt 1.9.7 (Oracle Corporation Java 17.0.10)
+2025.04.08 12:28:53 INFO  [info] loading settings for project scala-tutorials-build-build from metals.sbt ...
+2025.04.08 12:28:53 INFO  [info] loading project definition from E:\Scala\Scala-tutorials\project\project
+2025.04.08 12:29:01 INFO  [info] loading settings for project scala-tutorials-build from metals.sbt ...
+2025.04.08 12:29:01 INFO  [info] loading project definition from E:\Scala\Scala-tutorials\project
+2025.04.08 12:29:04 INFO  no build target found for E:\Scala\Scala-tutorials\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 12:29:04 INFO  no build target found for E:\Scala\Scala-tutorials\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 12:29:05 WARN  Could not find semantic tokens for: file:///E:/Scala/Scala-tutorials/build.sbt
+2025.04.08 12:29:06 INFO  no build target found for E:\Scala\Scala-tutorials\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 12:29:07 WARN  no build target for: E:\Scala\Scala-tutorials\src\main\scala\Main.scala
+2025.04.08 12:29:07 INFO  no build target found for E:\Scala\Scala-tutorials\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 12:29:14 INFO  [success] Generated .bloop\scala-tutorials-build.json
+2025.04.08 12:29:14 INFO  [success] Total time: 13 s, completed Apr 8, 2025, 12:29:14 PM
+2025.04.08 12:29:16 INFO  [info] loading settings for project scala-tutorials from build.sbt ...
+2025.04.08 12:29:16 INFO  [info] set current project to ScalaTutorial (in build file:/E:/Scala/Scala-tutorials/)
+2025.04.08 12:29:22 INFO  [success] Generated .bloop\scala-tutorials-test.json
+2025.04.08 12:29:22 INFO  [success] Generated .bloop\scala-tutorials.json
+2025.04.08 12:29:22 INFO  [success] Total time: 6 s, completed Apr 8, 2025, 12:29:22 PM
+2025.04.08 12:29:22 INFO  time: ran 'sbt bloopInstall' in 1m9s
+2025.04.08 12:29:22 INFO  Attempting to connect to the build server...
+2025.04.08 12:29:22 INFO  No running Bloop server found, starting one.
+2025.04.08 12:30:03 INFO  Starting compilation server
+2025.04.08 12:30:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\bsp.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.08 12:30:18 INFO  Attempting to connect to the build server...
+2025.04.08 12:30:18 INFO  Found a Bloop server running
+2025.04.08 12:30:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\project\.metals\bsp.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.08 12:30:28 INFO  time: Connected to build server in 1m5s
+2025.04.08 12:30:28 INFO  Connected to Build server: Bloop v2.0.9
+2025.04.08 12:30:28 INFO  time: Imported build in 0.3s
+2025.04.08 12:31:16 INFO  time: indexed workspace in 48s
+2025.04.08 12:31:17 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:31:22 INFO  time: compiled scala-tutorials in 4.25s
+2025.04.08 12:31:22 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:31:22 INFO  time: compiled scala-tutorials in 0.29s
+2025.04.08 12:31:23 INFO  time: code lens generation in 1.17s
+2025.04.08 12:31:24 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:31:26 INFO  time: compiled scala-tutorials in 1.7s
+2025.04.08 12:31:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:31:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:31:41 INFO  Starting debug proxy for [HelloWorld]
+2025.04.08 12:31:44 INFO  Loaded expression compiler in 2 seconds
+2025.04.08 12:31:48 INFO  Loaded all sources and classes in 4 seconds
+2025.04.08 12:31:48 INFO  Initialized Scala 3 decoder in 3 milliseconds
+2025.04.08 12:31:48 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62610 .
+2025.04.08 12:31:48 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:31:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:31:49 INFO  Canceling debug proxy for [HelloWorld]
+2025.04.08 12:31:48 INFO  Closing debug server tcp://0.0.0.0:62607
+2025.04.08 12:31:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:31:50 INFO  Starting debug proxy for [HelloWorld]
+2025.04.08 12:31:50 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 12:31:52 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 12:31:52 INFO  Initialized Scala 3 decoder in 1 millisecond
+2025.04.08 12:31:52 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62617 .
+2025.04.08 12:31:52 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:31:52 INFO  Canceling debug proxy for [HelloWorld]
+2025.04.08 12:31:52 INFO  Closing debug server tcp://0.0.0.0:62614
+2025.04.08 12:46:31 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:46:32 INFO  time: compiled scala-tutorials in 1.4s
+2025.04.08 12:46:43 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:46:44 INFO  time: compiled scala-tutorials in 1.14s
+2025.04.08 12:48:39 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:48:39 INFO  time: compiled scala-tutorials in 0.94s
+2025.04.08 12:48:54 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:48:54 INFO  time: compiled scala-tutorials in 0.11s
+2025.04.08 12:48:55 INFO  time: compiled scala-tutorials in 12ms
+2025.04.08 12:51:26 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:26 INFO  time: compiled scala-tutorials in 0.16s
+2025.04.08 12:51:31 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:31 INFO  time: compiled scala-tutorials in 0.12s
+2025.04.08 12:51:35 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:35 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:51:38 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:38 INFO  time: compiled scala-tutorials in 0.14s
+2025.04.08 12:51:43 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:43 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:51:45 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:45 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:51:47 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:47 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:51:53 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:53 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:51:54 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:54 INFO  time: compiled scala-tutorials in 87ms
+2025.04.08 12:51:58 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:51:58 INFO  time: compiled scala-tutorials in 0.11s
+2025.04.08 12:52:02 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:02 INFO  time: compiled scala-tutorials in 87ms
+2025.04.08 12:52:04 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:04 INFO  time: compiled scala-tutorials in 89ms
+2025.04.08 12:52:05 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:05 INFO  time: compiled scala-tutorials in 0.15s
+2025.04.08 12:52:09 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:09 INFO  time: compiled scala-tutorials in 90ms
+2025.04.08 12:52:11 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:11 INFO  time: compiled scala-tutorials in 88ms
+2025.04.08 12:52:13 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:13 INFO  time: compiled scala-tutorials in 90ms
+2025.04.08 12:52:16 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:16 INFO  time: compiled scala-tutorials in 86ms
+2025.04.08 12:52:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:20 INFO  time: compiled scala-tutorials in 82ms
+2025.04.08 12:52:21 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:21 INFO  time: compiled scala-tutorials in 88ms
+2025.04.08 12:52:25 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:52:26 INFO  time: compiled scala-tutorials in 1.13s
+2025.04.08 12:52:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:52:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:52:48 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:52:48 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 12:52:50 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 12:52:50 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 12:52:50 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60153 .
+2025.04.08 12:52:50 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:52:51 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:52:50 INFO  Closing debug server tcp://0.0.0.0:60150
+2025.04.08 12:52:57 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:52:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:52:57 INFO  time: compiled scala-tutorials in 0.94s
+2025.04.08 12:53:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:53:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:53:03 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:53:03 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 12:53:05 INFO  Loaded all sources and classes in 1 second
+2025.04.08 12:53:05 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 12:53:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60159 .
+2025.04.08 12:53:05 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:53:05 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:53:05 INFO  Closing debug server tcp://0.0.0.0:60156
+2025.04.08 12:53:59 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:53:59 INFO  time: compiled scala-tutorials in 96ms
+2025.04.08 12:54:01 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:54:01 INFO  time: compiled scala-tutorials in 83ms
+Apr 08, 2025 12:54:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 618
+2025.04.08 12:54:03 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:54:03 INFO  time: compiled scala-tutorials in 85ms
+2025.04.08 12:54:05 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:54:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:54:05 INFO  time: compiled scala-tutorials in 0.87s
+2025.04.08 12:54:06 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:54:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:54:06 INFO  time: compiled scala-tutorials in 0.33s
+2025.04.08 12:54:08 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:54:08 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:54:08 INFO  time: compiled scala-tutorials in 0.79s
+2025.04.08 12:54:31 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:54:31 INFO  time: compiled scala-tutorials in 85ms
+2025.04.08 12:55:05 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:05 INFO  time: compiled scala-tutorials in 0.11s
+2025.04.08 12:55:08 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:08 INFO  time: compiled scala-tutorials in 90ms
+2025.04.08 12:55:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:20 INFO  time: compiled scala-tutorials in 86ms
+2025.04.08 12:55:22 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:22 INFO  time: compiled scala-tutorials in 85ms
+2025.04.08 12:55:23 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:23 INFO  time: compiled scala-tutorials in 73ms
+Apr 08, 2025 12:55:26 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 276, count -1, length 337
+2025.04.08 12:55:27 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:27 INFO  time: compiled scala-tutorials in 80ms
+2025.04.08 12:55:29 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:29 INFO  time: compiled scala-tutorials in 82ms
+2025.04.08 12:55:40 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:40 INFO  time: compiled scala-tutorials in 0.13s
+Apr 08, 2025 12:55:40 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 276, count -1, length 339
+2025.04.08 12:55:41 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:41 INFO  time: compiled scala-tutorials in 79ms
+2025.04.08 12:55:48 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:48 INFO  time: compiled scala-tutorials in 87ms
+2025.04.08 12:55:52 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:52 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:55:54 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:54 INFO  time: compiled scala-tutorials in 82ms
+2025.04.08 12:55:59 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:55:59 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:56:10 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:56:10 INFO  time: compiled scala-tutorials in 78ms
+2025.04.08 12:56:12 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:56:12 INFO  time: compiled scala-tutorials in 89ms
+2025.04.08 12:56:16 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:56:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:56:16 INFO  time: compiled scala-tutorials in 0.84s
+2025.04.08 12:56:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:56:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:56:40 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:56:40 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 12:56:42 INFO  Loaded all sources and classes in 1 second
+2025.04.08 12:56:42 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 12:56:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60185 .
+2025.04.08 12:56:42 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:56:42 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:56:42 INFO  Closing debug server tcp://0.0.0.0:60182
+2025.04.08 12:56:53 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:56:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:56:53 INFO  time: compiled scala-tutorials in 0.77s
+2025.04.08 12:56:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:56:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:57:00 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:57:00 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 12:57:02 INFO  Loaded all sources and classes in 1 second
+2025.04.08 12:57:02 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 12:57:02 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60194 .
+2025.04.08 12:57:02 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:57:02 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:57:02 INFO  Closing debug server tcp://0.0.0.0:60191
+2025.04.08 12:57:30 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:30 INFO  time: compiled scala-tutorials in 97ms
+2025.04.08 12:57:35 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:35 INFO  time: compiled scala-tutorials in 0.1s
+2025.04.08 12:57:37 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:37 INFO  time: compiled scala-tutorials in 90ms
+2025.04.08 12:57:41 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:41 INFO  time: compiled scala-tutorials in 98ms
+2025.04.08 12:57:48 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:48 INFO  time: compiled scala-tutorials in 0.11s
+2025.04.08 12:57:50 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:50 INFO  time: compiled scala-tutorials in 83ms
+2025.04.08 12:57:54 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:54 INFO  time: compiled scala-tutorials in 80ms
+2025.04.08 12:57:57 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:57:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:57:57 INFO  time: compiled scala-tutorials in 0.76s
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.pom
+2025.04.08 12:58:26 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:58:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:58:26 INFO  time: compiled scala-tutorials in 0.73s
+2025.04.08 12:58:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:58:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:58:32 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:58:32 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 12:58:34 INFO  Loaded all sources and classes in 1 second
+2025.04.08 12:58:34 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 12:58:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60215 .
+2025.04.08 12:58:34 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:58:35 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:58:34 INFO  Closing debug server tcp://0.0.0.0:60212
+Apr 08, 2025 12:59:25 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+Apr 08, 2025 12:59:25 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+Apr 08, 2025 12:59:25 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+2025.04.08 12:59:30 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:59:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:59:30 INFO  time: compiled scala-tutorials in 0.76s
+2025.04.08 12:59:45 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 12:59:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 12:59:45 INFO  time: compiled scala-tutorials in 0.66s
+2025.04.08 12:59:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 12:59:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 12:59:52 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:59:52 INFO  Loaded expression compiler in 2 milliseconds
+2025.04.08 12:59:54 INFO  Loaded all sources and classes in 1 second
+2025.04.08 12:59:54 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 12:59:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60224 .
+2025.04.08 12:59:54 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 12:59:55 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 12:59:54 INFO  Closing debug server tcp://0.0.0.0:60221
+2025.04.08 13:00:07 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:00:07 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:00:07 INFO  time: compiled scala-tutorials in 0.76s
+Apr 08, 2025 1:00:08 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+Apr 08, 2025 1:00:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_13-00-09-650.md)
+Apr 08, 2025 1:00:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_13-00-09-650.md)
+2025.04.08 13:00:10 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:00:10 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:00:10 INFO  time: compiled scala-tutorials in 0.81s
+2025.04.08 13:00:15 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:00:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:00:15 INFO  time: compiled scala-tutorials in 0.72s
+2025.04.08 13:00:19 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:00:19 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:00:19 INFO  time: compiled scala-tutorials in 0.73s
+2025.04.08 13:00:21 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:00:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:00:21 INFO  time: compiled scala-tutorials in 0.77s
+2025.04.08 13:00:24 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:00:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:00:24 INFO  time: compiled scala-tutorials in 0.68s
+2025.04.08 13:00:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:00:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:00:41 INFO  Starting debug proxy for [String_interpolation$minusfirst]
+2025.04.08 13:00:42 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:00:44 INFO  Loaded all sources and classes in 1 second
+2025.04.08 13:00:44 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:00:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60233 .
+2025.04.08 13:00:44 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:00:44 INFO  Canceling debug proxy for [String_interpolation$minusfirst]
+2025.04.08 13:00:44 INFO  Closing debug server tcp://0.0.0.0:60230
+2025.04.08 13:01:06 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:01:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:01:06 INFO  time: compiled scala-tutorials in 0.67s
+2025.04.08 13:01:12 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:01:12 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:01:12 INFO  time: compiled scala-tutorials in 0.69s
+2025.04.08 13:01:16 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:01:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:01:16 INFO  time: compiled scala-tutorials in 0.69s
+2025.04.08 13:06:51 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:06:51 INFO  time: compiled scala-tutorials in 0.56s
+2025.04.08 13:07:08 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:08 INFO  time: compiled scala-tutorials in 82ms
+Apr 08, 2025 1:07:11 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing E:\Scala\Scala-tutorials\src\main\scala\Main.scala
+java.nio.file.NoSuchFileException: E:\Scala\Scala-tutorials\src\main\scala\Main.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:465)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:277)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:288)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:137)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:48)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:283)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:408)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:409)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:305)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:304)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:303)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1148)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1146)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:582)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:582)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:134)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Apr 08, 2025 1:07:11 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing E:\Scala\Scala-tutorials\src\main\scala\Main.scala
+java.nio.file.NoSuchFileException: E:\Scala\Scala-tutorials\src\main\scala\Main.scala
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:465)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:277)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:288)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:299)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:204)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:204)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:177)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:137)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:48)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:283)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:408)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:409)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:305)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:304)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:303)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1148)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1146)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:582)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:582)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:134)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2025.04.08 13:07:16 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:16 INFO  time: compiled scala-tutorials in 91ms
+2025.04.08 13:07:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:20 INFO  time: compiled scala-tutorials in 89ms
+Apr 08, 2025 1:07:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: expected identifier; obtained rbrace (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals\2025-04-08\r_scala-toplevel-mtags_13-07-21-663.md)
+2025.04.08 13:07:21 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:21 INFO  time: compiled scala-tutorials in 79ms
+2025.04.08 13:07:23 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:23 INFO  time: compiled scala-tutorials in 91ms
+Apr 08, 2025 1:07:37 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+Apr 08, 2025 1:07:38 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+2025.04.08 13:07:39 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:39 INFO  time: compiled scala-tutorials in 90ms
+2025.04.08 13:07:44 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:44 INFO  time: compiled scala-tutorials in 83ms
+2025.04.08 13:07:45 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:45 INFO  time: compiled scala-tutorials in 92ms
+2025.04.08 13:07:48 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:48 INFO  time: compiled scala-tutorials in 81ms
+2025.04.08 13:07:52 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:52 INFO  time: compiled scala-tutorials in 77ms
+2025.04.08 13:07:54 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:54 INFO  time: compiled scala-tutorials in 79ms
+2025.04.08 13:07:56 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:07:56 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:07:56 INFO  time: compiled scala-tutorials in 0.7s
+2025.04.08 13:08:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:08:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:08:41 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:08:42 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:08:44 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:08:44 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:08:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53594 .
+2025.04.08 13:08:44 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:08:44 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:08:44 INFO  Closing debug server tcp://0.0.0.0:53592
+Apr 08, 2025 1:08:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1786
+2025.04.08 13:09:00 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:09:00 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:09:00 INFO  time: compiled scala-tutorials in 0.6s
+2025.04.08 13:09:03 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:09:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:09:03 INFO  time: compiled scala-tutorials in 0.68s
+Apr 08, 2025 1:09:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1835
+2025.04.08 13:09:09 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:09:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:09:09 INFO  time: compiled scala-tutorials in 0.67s
+2025.04.08 13:09:23 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:09:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:09:23 INFO  time: compiled scala-tutorials in 0.62s
+2025.04.08 13:09:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:09:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:09:29 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:09:29 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 13:09:31 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:09:31 INFO  Initialized Scala 3 decoder in 1 millisecond
+2025.04.08 13:09:31 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53615 .
+2025.04.08 13:09:31 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:09:32 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:09:31 INFO  Closing debug server tcp://0.0.0.0:53612
+2025.04.08 13:11:00 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:00 INFO  time: compiled scala-tutorials in 87ms
+2025.04.08 13:11:03 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:03 INFO  time: compiled scala-tutorials in 0.77s
+2025.04.08 13:11:04 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala.scala
+2025.04.08 13:11:05 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:05 INFO  time: compiled scala-tutorials in 0.19s
+2025.04.08 13:11:06 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:06 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:11:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:20 INFO  time: compiled scala-tutorials in 0.6s
+2025.04.08 13:11:24 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:24 INFO  time: compiled scala-tutorials in 0.61s
+Apr 08, 2025 1:11:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2120
+2025.04.08 13:11:27 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:27 INFO  time: compiled scala-tutorials in 0.62s
+2025.04.08 13:11:34 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:34 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:34 INFO  time: compiled scala-tutorials in 0.69s
+Apr 08, 2025 1:11:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2168
+Apr 08, 2025 1:11:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2190
+2025.04.08 13:11:43 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:43 INFO  time: compiled scala-tutorials in 0.6s
+2025.04.08 13:11:55 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:11:55 INFO  time: compiled scala-tutorials in 0.77s
+2025.04.08 13:11:58 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:11:58 WARN  1 deprecation (since 2.11.0)
+2025.04.08 13:11:58 WARN  1 deprecation (since 2.13.0)
+2025.04.08 13:11:58 WARN  2 deprecations in total; re-run with -deprecation for details
+2025.04.08 13:11:58 INFO  time: compiled scala-tutorials in 0.59s
+2025.04.08 13:12:00 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:12:00 INFO  time: compiled scala-tutorials in 97ms
+2025.04.08 13:12:02 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:12:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:12:02 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:12:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:12:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:12:10 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:12:10 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:12:13 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:12:13 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:12:13 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53630 .
+2025.04.08 13:12:13 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:12:13 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:12:13 INFO  Closing debug server tcp://0.0.0.0:53627
+2025.04.08 13:12:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:12:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:12:20 INFO  time: compiled scala-tutorials in 0.6s
+2025.04.08 13:12:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:12:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:12:26 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:12:26 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 13:12:28 INFO  Loaded all sources and classes in 1 second
+2025.04.08 13:12:28 INFO  Initialized Scala 3 decoder in 1 millisecond
+2025.04.08 13:12:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53640 .
+2025.04.08 13:12:28 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:12:28 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:12:28 INFO  Closing debug server tcp://0.0.0.0:53637
+2025.04.08 13:13:29 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:29 INFO  time: compiled scala-tutorials in 0.11s
+Apr 08, 2025 1:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2378
+2025.04.08 13:13:33 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:33 INFO  time: compiled scala-tutorials in 84ms
+2025.04.08 13:13:35 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:35 INFO  time: compiled scala-tutorials in 96ms
+2025.04.08 13:13:42 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:42 INFO  time: compiled scala-tutorials in 81ms
+2025.04.08 13:13:46 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:46 INFO  time: compiled scala-tutorials in 79ms
+2025.04.08 13:13:49 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:13:49 INFO  time: compiled scala-tutorials in 0.67s
+2025.04.08 13:13:55 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:13:55 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:13:55 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:14:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:14:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:14:16 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:14:16 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:14:18 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:14:18 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:14:18 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53651 .
+2025.04.08 13:14:18 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:14:19 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:14:18 INFO  Closing debug server tcp://0.0.0.0:53648
+2025.04.08 13:14:53 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:14:53 INFO  time: compiled scala-tutorials in 98ms
+2025.04.08 13:14:54 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:14:54 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:14:54 INFO  time: compiled scala-tutorials in 0.68s
+2025.04.08 13:15:36 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:15:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:15:36 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:15:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:15:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:15:37 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:15:38 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:15:40 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:15:40 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:15:40 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53661 .
+2025.04.08 13:15:40 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:15:41 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:15:40 INFO  Closing debug server tcp://0.0.0.0:53658
+2025.04.08 13:15:48 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:15:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:15:48 INFO  time: compiled scala-tutorials in 0.61s
+2025.04.08 13:15:53 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:15:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:15:53 INFO  time: compiled scala-tutorials in 0.68s
+2025.04.08 13:15:59 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:15:59 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:15:59 INFO  time: compiled scala-tutorials in 0.62s
+Apr 08, 2025 1:16:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2792
+2025.04.08 13:16:09 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:09 INFO  time: compiled scala-tutorials in 0.58s
+2025.04.08 13:16:13 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:13 INFO  time: compiled scala-tutorials in 0.58s
+2025.04.08 13:16:15 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:15 INFO  time: compiled scala-tutorials in 0.61s
+2025.04.08 13:16:22 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:22 INFO  time: compiled scala-tutorials in 0.57s
+2025.04.08 13:16:24 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:24 INFO  time: compiled scala-tutorials in 0.74s
+2025.04.08 13:16:25 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:25 INFO  time: compiled scala-tutorials in 0.12s
+2025.04.08 13:16:26 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala.scala
+2025.04.08 13:16:30 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala.scala
+2025.04.08 13:16:31 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:31 INFO  time: compiled scala-tutorials in 0.13s
+2025.04.08 13:16:32 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala.scala
+2025.04.08 13:16:41 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala.scala
+2025.04.08 13:16:42 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:42 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala.scala
+2025.04.08 13:16:42 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:42 INFO  time: compiled scala-tutorials in 0.73s
+2025.04.08 13:16:43 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:43 INFO  time: compiled scala-tutorials in 0.16s
+2025.04.08 13:16:46 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:16:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:16:46 INFO  time: compiled scala-tutorials in 0.73s
+2025.04.08 13:17:03 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:03 INFO  time: compiled scala-tutorials in 0.69s
+2025.04.08 13:17:06 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:06 INFO  time: compiled scala-tutorials in 0.64s
+Apr 08, 2025 1:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3003
+Apr 08, 2025 1:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3009
+2025.04.08 13:17:11 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:11 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:17:14 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:14 INFO  time: compiled scala-tutorials in 87ms
+2025.04.08 13:17:16 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:16 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:17:27 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:27 INFO  time: compiled scala-tutorials in 0.65s
+2025.04.08 13:17:29 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:29 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:29 INFO  time: compiled scala-tutorials in 0.69s
+2025.04.08 13:17:41 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:17:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:17:41 INFO  time: compiled scala-tutorials in 0.65s
+2025.04.08 13:17:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:17:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:17:44 INFO  Starting debug proxy for [if_else_scala]
+2025.04.08 13:17:44 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:17:46 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:17:46 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:17:46 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53671 .
+2025.04.08 13:17:46 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:17:47 INFO  Canceling debug proxy for [if_else_scala]
+2025.04.08 13:17:46 INFO  Closing debug server tcp://0.0.0.0:53668
+2025.04.08 13:23:21 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:23:21 INFO  time: compiled scala-tutorials in 0.52s
+2025.04.08 13:24:13 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:13 INFO  time: compiled scala-tutorials in 93ms
+2025.04.08 13:24:17 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:17 INFO  time: compiled scala-tutorials in 87ms
+2025.04.08 13:24:19 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:19 INFO  time: compiled scala-tutorials in 0.11s
+2025.04.08 13:24:24 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:24 INFO  time: compiled scala-tutorials in 0.12s
+2025.04.08 13:24:29 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:29 INFO  time: compiled scala-tutorials in 95ms
+2025.04.08 13:24:34 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:34 INFO  time: compiled scala-tutorials in 89ms
+2025.04.08 13:24:37 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:37 INFO  time: compiled scala-tutorials in 82ms
+2025.04.08 13:24:39 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:39 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:24:39 INFO  time: compiled scala-tutorials in 0.64s
+2025.04.08 13:24:43 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:24:43 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:24:43 INFO  time: compiled scala-tutorials in 0.62s
+2025.04.08 13:25:33 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:25:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:25:33 INFO  time: compiled scala-tutorials in 0.66s
+2025.04.08 13:25:36 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:25:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:25:36 INFO  time: compiled scala-tutorials in 0.61s
+2025.04.08 13:25:42 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:25:42 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:25:42 INFO  time: compiled scala-tutorials in 0.61s
+2025.04.08 13:25:47 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:25:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:25:47 INFO  time: compiled scala-tutorials in 0.62s
+2025.04.08 13:25:48 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:25:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:25:48 INFO  time: compiled scala-tutorials in 0.17s
+2025.04.08 13:25:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:25:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:25:58 INFO  Starting debug proxy for [if_else_scala_2nd]
+2025.04.08 13:25:58 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 13:26:00 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:26:00 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:26:00 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53691 .
+2025.04.08 13:26:00 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:26:01 INFO  Canceling debug proxy for [if_else_scala_2nd]
+2025.04.08 13:26:00 INFO  Closing debug server tcp://0.0.0.0:53688
+2025.04.08 13:26:14 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:14 INFO  time: compiled scala-tutorials in 0.59s
+2025.04.08 13:26:15 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:15 INFO  time: compiled scala-tutorials in 0.6s
+2025.04.08 13:26:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:20 INFO  time: compiled scala-tutorials in 0.65s
+2025.04.08 13:26:23 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:23 INFO  time: compiled scala-tutorials in 0.65s
+Apr 08, 2025 1:26:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3694
+2025.04.08 13:26:29 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:29 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:29 INFO  time: compiled scala-tutorials in 0.68s
+2025.04.08 13:26:30 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:30 INFO  time: compiled scala-tutorials in 0.62s
+2025.04.08 13:26:36 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:36 INFO  time: compiled scala-tutorials in 0.62s
+2025.04.08 13:26:38 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:38 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:38 INFO  time: compiled scala-tutorials in 0.72s
+2025.04.08 13:26:40 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:40 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:40 INFO  time: compiled scala-tutorials in 0.17s
+Apr 08, 2025 1:26:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3775
+2025.04.08 13:26:45 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:45 INFO  time: compiled scala-tutorials in 0.71s
+2025.04.08 13:26:47 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:47 WARN  Could not load snapshot text for E:\Scala\Scala-tutorials\src\main\scala\if_else_scala_2nd.scala
+2025.04.08 13:26:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:47 INFO  time: compiled scala-tutorials in 0.7s
+2025.04.08 13:26:50 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:26:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:26:50 INFO  time: compiled scala-tutorials in 0.62s
+Apr 08, 2025 1:26:58 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+Apr 08, 2025 1:26:59 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+Apr 08, 2025 1:26:59 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: E:\Scala\Scala-tutorials\.metals\.reports\metals-full\2025-04-08\r_empty-definition_(scala-tutorials)_12-59-25-080.md)
+2025.04.08 13:27:02 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:27:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:27:02 INFO  time: compiled scala-tutorials in 0.64s
+2025.04.08 13:27:05 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:27:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:27:05 INFO  time: compiled scala-tutorials in 0.74s
+2025.04.08 13:27:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:27:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:27:18 INFO  Starting debug proxy for [if_else_scala_2nd]
+2025.04.08 13:27:18 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:27:20 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:27:20 INFO  Initialized Scala 3 decoder in 1 millisecond
+2025.04.08 13:27:20 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53707 .
+2025.04.08 13:27:20 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:27:20 INFO  Canceling debug proxy for [if_else_scala_2nd]
+2025.04.08 13:27:20 INFO  Closing debug server tcp://0.0.0.0:53704
+2025.04.08 13:29:14 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:29:14 INFO  time: compiled scala-tutorials in 96ms
+2025.04.08 13:29:16 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:29:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:29:16 INFO  time: compiled scala-tutorials in 0.72s
+2025.04.08 13:29:20 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:29:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:29:20 INFO  time: compiled scala-tutorials in 0.63s
+2025.04.08 13:29:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:29:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:29:49 INFO  Starting debug proxy for [if_else_scala_2nd]
+2025.04.08 13:29:49 INFO  Loaded expression compiler in 1 millisecond
+2025.04.08 13:29:51 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:29:51 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:29:51 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53717 .
+2025.04.08 13:29:51 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:29:51 INFO  Canceling debug proxy for [if_else_scala_2nd]
+2025.04.08 13:29:51 INFO  Closing debug server tcp://0.0.0.0:53714
+2025.04.08 13:30:34 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:30:34 INFO  time: compiled scala-tutorials in 90ms
+2025.04.08 13:30:36 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:30:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:30:36 INFO  time: compiled scala-tutorials in 0.73s
+2025.04.08 13:30:38 INFO  compiling scala-tutorials (1 scala source)
+2025.04.08 13:30:38 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.04.08 13:30:38 INFO  time: compiled scala-tutorials in 0.2s
+2025.04.08 13:30:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-server.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.04.08 13:30:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\Scala\Scala-tutorials\.metals\dap-client.trace.json or C:\Users\Tharindu Chanaka\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.04.08 13:30:42 INFO  Starting debug proxy for [if_else_scala_2nd]
+2025.04.08 13:30:42 INFO  Loaded expression compiler in 0 milliseconds
+2025.04.08 13:30:44 INFO  Loaded all sources and classes in 2 seconds
+2025.04.08 13:30:44 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2025.04.08 13:30:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53727 .
+2025.04.08 13:30:44 INFO  Attaching to debuggee VM succeeded.
+2025.04.08 13:30:44 INFO  Canceling debug proxy for [if_else_scala_2nd]
+2025.04.08 13:30:44 INFO  Closing debug server tcp://0.0.0.0:53724

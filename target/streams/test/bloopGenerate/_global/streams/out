@@ -1,0 +1,4 @@
+[debug] [scala-tutorials-test] Classpath dependencies List()
+[debug] [scala-tutorials-test] Dependencies from configurations List(scala-tutorials)
+[debug] Bloop wrote the configuration of project 'scala-tutorials-test' to 'E:\Scala\Scala-tutorials\.bloop\scala-tutorials-test.json'
+[success] Generated .bloop\scala-tutorials-test.json
