@@ -1,0 +1,43 @@
+# === Scala / SBT ===
+target/
+project/target/
+project/project/
+lib_managed/
+src_managed/
+.idea/
+.cache/
+.history/
+*.class
+*.log
+*.lock
+*.tmp
+
+# === Metals (Scala Language Server) ===
+.metals/
+.bloop/
+.bsp/
+.worksheet/
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === IntelliJ IDEA ===
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# === Optional ===
+out/
+*.jar
+*.zip
+*.war
+*.ear
